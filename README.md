@@ -89,7 +89,7 @@ Below is a summary of the available endpoints.
 
 #### Request Body (JSON)
 
-```json
+```bash
 {
   "name": "Vivek",
   "email": "vivek@example.com"
@@ -97,7 +97,7 @@ Below is a summary of the available endpoints.
 ```
 #### Response (200 OK):
 
-```json
+```bash
 {
   "name": "Vivek",
   "email": "vivek@example.com",
@@ -119,7 +119,7 @@ Below is a summary of the available endpoints.
 **URL:** `PUT /authors/{id}`
 Request Body:
 
-```json
+```bash
 {
   "name": "Vivek Updated",
   "email": "new.email@example.com"
@@ -143,7 +143,7 @@ Request Body:
 
 #### Request Body:
 
-```json
+```bash
 {
   "title": "My First Blog",
   "content": "Content of the blog post...",
@@ -152,7 +152,7 @@ Request Body:
 ```
 #### Response (200 OK):
 
-```json
+```bash
 {
   "title": "My First Blog",
   "content": "Content of the blog post...",
@@ -171,7 +171,7 @@ Request Body:
 
 ##### Response:
 
-```json
+```bash
 {
   "title": "My First Blog",
   "content": "Content...",
@@ -190,7 +190,7 @@ Request Body:
 
 #### Request Body:
 
-```json
+```bash
 {
   "title": "Updated Title",
   "content": "Updated content"
