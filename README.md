@@ -1,4 +1,6 @@
 # Blog API Platform
+## GitHub Repository  
+https://github.com/vivekkantipudi/blog_api
 
 ## Overview
 This is a robust RESTful API built with **FastAPI** and **MySQL** for a blogging platform. It manages Authors and Posts with a strong focus on backend best practices, including data integrity and query optimization.
@@ -228,6 +230,7 @@ The database contains two tables: **authors** and **posts**, connected by a **on
 - **Constraint:** `ON DELETE CASCADE` (Deleting an author deletes all their posts)  
 
 ---
+## Entity Relationship Diagram (ERD)
 
 ```mermaid
 erDiagram
