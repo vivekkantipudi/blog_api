@@ -75,7 +75,7 @@ uvicorn main:app --reload
 
 You can access the interactive **Swagger UI** at:
 
-http://127.0.0.1:8000/docs
+(https://documenter.getpostman.com/view/48093396/2sB3dSPobD)
 
 Below is a summary of the available endpoints.
 
