@@ -70,6 +70,8 @@ Start the server with hot-reloading:
 ```bash
 uvicorn main:app --reload
 ```
+## Postman Collection  
+Import the file `Postman_collection.json` to test all API endpoints.
 
 ## API Documentation
 
